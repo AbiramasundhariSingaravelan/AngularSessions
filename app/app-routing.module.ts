@@ -4,11 +4,16 @@ import { BooksComponent } from './books/books.component';
 import { ContactComponent } from './contact/contact.component';
 import { Course } from './Course';
 import { CoursesComponent } from './courses/courses.component';
+import { StudentComponent } from './student/student.component';
 
 const routes: Routes = [
   {
     path:'view-courses',
     component:CoursesComponent
+  },
+  {
+    path:'student-list',
+    component:StudentComponent
   },
   {
     path:'view-books',
