@@ -9,16 +9,16 @@ import { StudentListService } from '../student-list.service';
 })
 export class StudentComponent implements OnInit {
 
-  stud?:Student[];
-  studService:StudentListService
-  constructor() {
-    this.studService=new StudentListService();
-   }
-  getStudentData()
-  {
-   this.stud= this.studService.getStudentList();
-  }
+  studList:any;
+  constructor(private studService:StudentListService){
 
+  }
+  getStudents()
+  {
+  this.studService.getStudentList().subscribe(data=>{
+    this.studList=data;
+  })
+}
   ngOnInit(): void {
   }
 

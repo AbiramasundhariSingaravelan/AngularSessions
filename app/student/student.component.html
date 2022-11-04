@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="container">
-        <button (click)="getStudentData()" class="btn btn-primary">Get Student List</button>
+        <button (click)="getStudents()" class="btn btn-primary">Get Student List</button>
     </div>
     <div class="container">
         <table class="table table-striped">
@@ -20,7 +20,7 @@
                 <th>Department</th>
                 <th>City</th>
             </tr>
-            <tr *ngFor="let s of stud">
+            <tr *ngFor="let s of studList">
                 <td>{{s.id}}</td>
                 <td>{{s.name}}</td>
                 <td>{{s.dept}}</td>

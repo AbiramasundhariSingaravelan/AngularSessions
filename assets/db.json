@@ -1,0 +1,9 @@
+{
+   "students": [
+        {"id":"1","name":"Arthi","dept":"CSE","city":"Chennai"},
+        {"id":"2","name":"Sahana","dept":"IT","city":"Bangalore"},
+        {"id":"3","name":"Ragavi","dept":"CSE","city":"Hyderabad"},
+        {"id":"4","name":"Hema","dept":"ECE","city":"Chennai"},
+        {"id":"5","name":"Lavanya","dept":"CSE","city":"Chennai"}
+    ]
+}
